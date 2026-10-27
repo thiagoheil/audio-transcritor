@@ -1,0 +1,19 @@
+{
+  "name": "transcritor-whisper",
+  "version": "1.0.0",
+  "description": "Transcreve vídeos e áudios para texto e legenda .srt localmente com Whisper",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^3.0.0",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
